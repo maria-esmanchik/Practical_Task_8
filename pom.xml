@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>PractikalTask8</artifactId>
+  <artifactId>PracticalTask7</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>PractikalTask8</name>
+  <name>PracticalTask7</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -24,6 +24,25 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.1.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>3.141.59</version>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.1.0</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 

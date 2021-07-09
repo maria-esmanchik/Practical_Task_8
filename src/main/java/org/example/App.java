@@ -1,5 +1,10 @@
 package org.example;
 
+import org.testng.TestNG;
+
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Hello world!
  *
@@ -8,6 +13,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        TestNG testNG = new TestNG();
+        List<String> file = Arrays.asList("src/main/java/resources/suite.xml");
+        testNG.setTestSuites(file);
+        testNG.run();
     }
 }
